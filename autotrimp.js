@@ -71,7 +71,7 @@ else {
 	var autoformations = {enabled: 0, description: "Automatically switch between Heap and Dominance formations based on enemy", titles: ["Not Switching", "Switching"]};
 	var autosnimps = {enabled: 0, description: "I'll automatically buy items to help us get past snimps, squimps, and other fast enemies", titles: ["Not Avoiding", "Avoiding"]};
 	var automapbmax = {enabled: 0, description: "I'll manage turning map repeat on and off so we can reach the max map bonus", titles: ["Not Managing", "Managing"]};
-		var autohousing = {enabled: 0, description: "I'll try and buy the best housing for you when we can afford it", titles: ["Not Buying", "Buy All", "Only Good"]};
+	var autohousing = {enabled: 0, description: "I'll try and buy the best housing for you when we can afford it", titles: ["Not Buying", "Buy All", "Only Good"]};
 	autoTSettings = {versioning: version, autobuildings: autobuildings, autogymbutes: autogymbutes, autoupgrades: autoupgrades, autohighlight: autohighlight, autopremaps: autopremaps, autogather: autogather, automapbmax: automapbmax, autosnimps: autosnimps, autoformations: autoformations, autohousing: autohousing};
 }
 
